@@ -1,0 +1,2 @@
+Hello! This is python.
+I am simple and easy to learn.
