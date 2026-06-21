@@ -1,0 +1,11 @@
+{
+  "name": "banking-bronze-load",
+  "description": "Banking Bronze Layer Load",
+  "parameters": [
+    {
+      "name": "batch_id",
+      "label": "Batch Id",
+      "helpText": "Batch Id"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+steps:
+
+- name: 'gcr.io/cloud-builders/docker'
+
+  args:
+    [
+      'build',
+      '-f',
+      'Dockerfile',
+      '-t',
+      'us-central1-docker.pkg.dev/scenic-kiln-351104/dataflow-repo/banking-bronze:v10',
+      '.'
+    ]
+
+images:
+- 'us-central1-docker.pkg.dev/scenic-kiln-351104/dataflow-repo/banking-bronze:v10'
